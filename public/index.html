@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Identifier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Main container for the website -->
+<div class="container">
+  <h1>The best Car Identifier you can find!</h1>
+
+  <!-- Input for users to paste a direct Imgur image URL -->
+  <input type="text" id="imgurUrl" placeholder="Paste direct image URL (.jpg, .png, .gif, .webp)">
+
+  <!-- Button to trigger the car identification -->
+  <button onclick="identifyCar()">Identify Car</button>
+
+  <!-- Container for image preview -->
+  <div id="previewContainer">
+    <img id="preview" src="" alt="" style="display:none;">
+  </div>
+
+  <!-- Container to show the GPT result -->
+  <div id="result"></div>
+  <!-- Footer section for socials -->
+  <footer>
+    <p>Drupal Premgi ©2025</p>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/drupalp" target="_blank">
+          <div class="socials-linkedin"><img src=
+          "imgs/linkedin.logo.png" alt="" /></div></a>
+
+      <a href="https://github.com/idrup" target="_blank">
+    <div class="socials-github"><img src=
+    "imgs/github.logo.png" alt="" /></div></a>
+
+    <a href="mailto:d.sporting@hotmail.com" target="_blank">
+    <div class="socials-email"><img src="imgs/mail.logo.png" alt="" /></div></a>
+
+  </div>
+  </footer>
+</div>
+
+
+<!-- External JS file for all interactive functionality -->
+<script src="script.js"></script>
+</body>
+</html>

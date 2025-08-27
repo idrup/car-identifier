@@ -1,0 +1,117 @@
+/* General page styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #3222c3;
+  background: linear-gradient(0deg,rgba(50, 34, 195, 1) 0%, rgba(194, 45, 253, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container for the website content */
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 400px;
+  max-width: 90%;
+}
+
+/* Styles for the input field */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Image preview container */
+#previewContainer {
+  margin-top: 15px;
+}
+
+/* Image preview styling */
+#preview {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Result text styling */
+#result {
+  margin-top: 20px;
+  white-space: pre-wrap;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+}
+
+/* footer styles */
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  background-color: #282828
+}
+
+/* Socials style */
+.socials {
+  display: flex;
+  margin-bottom: 20px
+}
+
+.socials-github,.socials-email,.socials-linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.2s
+}
+
+.socials-github:hover,.socials-email:hover,.socials-linkedin:hover {
+  transform: scale(1.2)
+}
+
+.socials-github {
+  margin-left: 1rem
+}
+
+.socials-email {
+  margin-left: 1rem
+}
+
+.socials-linkedin {
+  margin-left: 8.5rem
+}
+
+.socials img {
+  height: 100%
+}
