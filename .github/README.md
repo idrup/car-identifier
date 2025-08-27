@@ -11,5 +11,11 @@ The website using OpenAI API to get the image from the submited image URL as Ope
 ![screenshot](car-identifier.png)
 
 
-## An example after a result is shown
+## An example after a car has been identified
 ![screenshot](car-identifier-honda.png)
+
+
+## Run the website locally
+To run the website locally you will need to have Node.JS installed on your device and just run the run_car_identifier.bat file that has been created which will run the server locally allowing you to open the URL [http://localhost:3000/](http://localhost:3000/) in your browser to view the website 
+
+The bat file runs the npm install command to get the required node dependancies for the website to function automatically.
